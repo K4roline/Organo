@@ -1,1 +1,1 @@
-Projeto de um site para estudo de REACT.
+Projeto de um site para estudos de REACT.

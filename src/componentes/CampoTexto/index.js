@@ -1,12 +1,17 @@
-const CampoTexto = () => {
-    retur (
-        <div>
-            <label>Nome</label>
-            <input />
+import './CampoTexto.css'
+
+const CampoTexto = (props) => {
+
+    const placeholderModificada = `${props.placeholder}...` 
+
+    return (
+        <div className="campo-texto">
+            <label>
+                {props.label}
+            </label>
+            <input placeholder={placeholderModificada}/>
         </div>
     )
 }
 
-import { Banner } from "./Banner";
-
-export default Banner
+export default CampoTexto
